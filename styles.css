@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  background-color: #000;
+}
+h1 {
+  color: #fff;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  padding: 12px;
+}
+.sidebar_navigation {
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 16px 0 0 16px;
+}
+.sidebar_navigation .logo {
+  background: #121212;
+  display: flex;
+  border-radius: 8px;
+  padding: 16px 0 0 16px;
+}
+.sidebar_navigation .logo img {
+  width: 80px;
+}
+.sidebar nav ul {
+  margin-top: 20px;
+  padding: 0 20px 10px 20px;
+}
+.sidebar nav ul li {
+  padding: 10px 0;
+}
+.sidebar nav ul li a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Library */
+
+.library {
+  background-color: #121212;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 4px 8px;
+  color: #b3b3b3;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.library .library_content {
+  display: flex;
+  justify-content: space-between;
+}
+.library button {
+  display: flex;
+  margin-right: 10px;
+  color: #b3b3b3;
+  background-color: transparent;
+  border: 0px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  padding: 20px 10px;
+}
+.library .library_button .fa {
+  font-size: 20px;
+  font-weight: 300;
+  color: #b3b3b3;
+  margin-right: 10px;
+  padding-right: 8px;
+}
+.library .library_content .fa-plus {
+  margin: 24px 10px;
+}
