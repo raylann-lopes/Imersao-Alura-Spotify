@@ -14,18 +14,18 @@ h1 {
   width: 300px;
   padding: 12px;
 }
-.sidebar_navigation {
+.sidebar-navigation {
   background-color: #121212;
   border-radius: 8px;
   padding: 16px 0 0 16px;
 }
-.sidebar_navigation .logo {
+.sidebar-navigation .logo {
   background: #121212;
   display: flex;
   border-radius: 8px;
   padding: 16px 0 0 16px;
 }
-.sidebar_navigation .logo img {
+.sidebar-navigation .logo img {
   width: 80px;
 }
 .sidebar nav ul {
@@ -57,11 +57,11 @@ h1 {
   font-size: 14px;
   margin-top: 10px;
 }
-.library .library_content {
+.library .library-content {
   display: flex;
   justify-content: space-between;
 }
-.library .library_button {
+.library .library-button {
   display: flex;
   margin-right: 10px;
   color: #b3b3b3;
@@ -75,14 +75,14 @@ h1 {
   text-transform: none;
   padding: 20px 10px;
 }
-.library .library_button .fa {
+.library .library-button .fa {
   font-size: 20px;
   font-weight: 300;
   color: #b3b3b3;
   margin-right: 10px;
   padding-right: 8px;
 }
-.library .library_content .fa-plus {
+.library .library-content .fa-plus {
   margin: 24px 10px;
 }
 
@@ -101,23 +101,23 @@ h1 {
   padding: 16px 20px;
   border-radius: 10px;
 }
-.section-playlist .section-playlist_content {
+.section-playlist .section-playlist-content {
   display: flex;
   flex-direction: column;
 }
-.section-playlist_content .text {
+.section-playlist-content .text {
   padding-bottom: 14px;
   color: #fff;
   font-family: "DM Sans", sans-serif;
 }
-.section-playlist_content .title {
+.section-playlist-content .title {
   font-weight: 700;
 }
-.section-playlist_content .subtitle {
+.section-playlist-content .subtitle {
   font-weight: 500;
   font-size: 14px;
 }
-.section-playlist_content .section-playlist_button {
+.section-playlist-content .section-playlist-button {
   display: flex;
   justify-content: center;
   background-color: #fff;
@@ -146,7 +146,7 @@ h1 {
   text-decoration: underline;
   color: #fff;
 }
-.language .language_button {
+.languages .languages-button {
   align-items: center;
   background-color: transparent;
   border: 1px solid #878787;
