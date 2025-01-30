@@ -1,0 +1,87 @@
+/* HEADER */
+
+.main-container {
+  max-width: 80vw;
+  height: 100vh;
+  margin-left: 320px;
+  margin-right: 56px;
+}
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: #121212;
+}
+.header-navigation .navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-navigation .navigation .arrow-left {
+  margin-right: 1.25rem;
+}
+.arrow-left,
+.arrow-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: var(--bg-icon);
+  background-color: var(--bg-arrow-color);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.header-login {
+  display: flex;
+  align-items: center;
+}
+.header-search {
+  display: flex;
+  align-items: center;
+  width: 364px;
+  height: 48px;
+  margin-left: 8px;
+  background-color: var(--bg-search);
+  border-radius: 500px;
+  border: 1px solid transparent;
+}
+.header-search img {
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+}
+.header-search input {
+  background: transparent;
+  border: none;
+  padding: 0 100px 0 12px;
+  color: #fff;
+  text-overflow: ellipsis; /* usar os 3 pontinhos no texto */
+  overflow: hidden; /* esconde o texto que ultrapassa o tamanho do input */
+  white-space: nowrap; /* não deixa o texto quebrar linha */
+  outline: none;
+}
+.header-login .subscribe {
+  color: var(--bg-subscribe);
+  font-size: 16px;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+  margin-right: 32px;
+  cursor: pointer;
+}
+.header-login .login {
+  width: 100px;
+  height: 48px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 40px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
